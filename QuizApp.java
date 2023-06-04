@@ -85,13 +85,14 @@ class Quiz {
 
     public void remarks(int score) {
         switch (score) {
-            case 0 -> System.out.println("Better luck next time!! 😔");
-            case 1 -> System.out.println("Its Okay! you can do better.. 🙂");
-            case 2 -> System.out.println("Very good!! 😊");
-            case 3 -> System.out.println("Impressive!! 😁");
-            case 4 -> {
+            case 0 : System.out.println("Better luck next time!! 😔"); break;
+            case 1 : System.out.println("Its Okay! you can do better.. 🙂"); break;
+            case 2 : System.out.println("Very good!! 😊"); break;
+            case 3 : System.out.println("Impressive!! 😁"); break;
+            case 4 : {
                 System.out.println("🎉🎉🎊🎊🥳🥳");
                 System.out.println("Excellent!! you're a champ.. 😎");
+                break;
             }
         }
     }
